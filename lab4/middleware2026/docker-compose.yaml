@@ -1,0 +1,9 @@
+services:
+  middleware2026-lab4:
+    build: .
+    container_name: middleware2026-lab4
+    volumes:
+      - ./workspace:/workspace
+    ports:
+      - "50041:50051/tcp"  		# gRPC (host 50041 -> container 50051)
+    tty: true

@@ -4,6 +4,11 @@ out/
 *.iml
 __pycache__/
 *.zip
-*.txt
+oświadczenie.txt
 .DS_Store
 .env
+protoc-gen-grpc-java
+generated/
+target/
+gen-java/
+gen/

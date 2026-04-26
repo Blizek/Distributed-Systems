@@ -12,3 +12,5 @@ generated/
 target/
 gen-java/
 gen/
+*.ser
+*.jar
